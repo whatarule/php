@@ -1,0 +1,55 @@
+@charset	"utf-8"	;
+
+	#detail		{
+	}
+	#detail::after		{
+		display		:	block		;
+		content		:	""		;
+		clear			:	both		;
+	}
+	#detail h2		{
+	}
+	#detail div		{
+		background-color	:	#dddddd	;
+		width			:	 60%		;
+	}
+	#detail img:nth-child(1)		{
+		display		:	block		;
+		float			:	left		;
+		width			:	 40%		;
+	}
+	#detail div div		{
+		display		:	block		;
+		float			:	left		;
+		width			:	 60%		;
+		text-align		:	right		;
+	/*
+	*/
+	}
+	#detail div div *		{
+	}
+	#detail div div table		{
+		background-color	:	#cccccc	;
+		width			:	100%		;
+		text-align		:	left		;
+	}
+	#detail div div form		{
+		background-color	:	#cccccc	;
+		width			:	100%		;
+	}
+	#detail div div form *		{
+		vertical-align	:	middle	;
+	}
+	#detail div div form input[type="text"]		{
+		width			:	 40px		;
+		text-align		:	center	;
+	}
+	#detail div div form input[type="image"]		{
+		background-color	:	#cccccc	;
+		width			:	 60%		;
+		padding		:
+						 00px
+						 20px
+					;
+	}
+

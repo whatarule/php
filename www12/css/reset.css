@@ -1,0 +1,44 @@
+@charset	"utf-8"	;
+
+	*		{
+		box-sizing		:	border-box	;
+	}
+	html,body,p,div,
+	h1,h2,h3,h4,h5,h6,
+	img,a,
+	ul,ol,li,
+	dl,dt,dd,
+	table,caption,th,td,
+	form
+	{
+		margin	:	0	;
+		padding	:	0	;
+		
+		font-weight		:	normal	;
+		text-decoration	:	none		;
+		list-style-type	:	none		;
+		
+	/*
+		border-style	:	none		;
+	*/
+		border-collapse	:	collapse	;
+	}
+	
+	body		{
+		line-height		:	1		;
+	}
+	nav		{
+	}
+	nav ul		{
+	}
+	nav ul li		{
+		list-style-type	:	none		;
+	}
+	
+	a		{
+		text-decoration	:	none		;
+	}
+	table		{
+		border-collapse	:	collapse	;
+	}
+

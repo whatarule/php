@@ -1,0 +1,200 @@
+@charset	"utf-8"	;
+
+	#container #content div		{
+		animation			:	anm_show	;
+		animation-duration	:	600ms	;
+	}
+	@keyframes	anm_show		{
+		00%		{
+			opacity	:	0.0		;
+		}
+		100%		{
+			opacity	:	1.0		;
+		}
+	}
+	
+	*		{
+		border-color	:	#222222	;
+		border-width	:
+						 01px
+					;
+	}
+	table tr th		{
+		text-align		:	right		;
+		
+		border-style	:	solid		;
+		line-height		:	3.0		;
+		padding		:
+						 00px
+						 10px
+					;
+	}
+	table tr td		{
+		text-align		:	left		;
+		
+		border-style	:	solid		;
+		line-height		:	3.0		;
+		padding		:
+						 00px
+						 10px
+					;
+	}
+	p		{
+		line-height		:	1.6		;
+	}
+	form		{
+		vertical-align	:	middle	;
+	}
+	form *		{
+		padding		:
+						 00px
+						 00px
+					;
+	}
+	select		{
+	/*
+		-webkit-appearance	:	none		;
+	*/
+	}
+	
+	#container		{
+		background-color	:	#fffffc	;
+		color			:	#222222	;
+		font-size		:	1.0rem	;
+		
+		font-family		:
+						"ヒラギノ角ゴ Pron W3"	,
+						"Hiragino Kaku Gothic ProN"	,
+						"メイリオ"	,
+						"Meiryo"	,
+						sans-serif
+					;
+	}
+	.inner		{
+		width			:	980px		;
+		margin		:
+						 00px
+						 auto
+					;
+	}
+	
+	#container * div
+	{
+	/*
+		width			:	980px		;
+	*/
+		margin		:
+						 00px
+						 auto
+					;
+	}
+	header		{
+		width			:	100%		;
+		padding		:
+						 10px
+					;
+	/*
+	*/
+		background-color	:	#eeeeee	;
+		border-style	:	solid		;
+		border-width	:
+						 00px
+						 00px
+						 01px
+					;
+	}
+	header div div a img		{
+		width			:	120px		;
+	}
+	nav		{
+		width			:	100%		;
+		background-color	:	#eeeeee	;
+	}
+	#content		{
+		background-color	:	#eeeeee	;
+		
+		width			:	980px		;
+		margin		:
+						 00px
+						 auto
+					;
+		padding		:
+						 10px
+						 00px
+					;
+	/*
+	*/
+	}
+	footer		{
+		width			:	100%		;
+		background-color	:	#eeeeee	;
+	}
+	
+	header h1		{
+		font-size		:	2.5rem	;
+	}
+	#content *		{
+	/*
+		padding		:
+						 10px
+						 10px
+					;
+	*/
+	}
+	#content div		{
+		padding		:
+						 10px
+						 10px
+					;
+	}
+	#content *::after		{
+	/*
+		display		:	block		;
+		content		:	""		;
+		clear			:	both		;
+	*/
+	}
+	#content h2		{
+		font-size		:	1.8rem	;
+		border-style	:	solid		;
+		border-width	:
+						 01px
+						 01px
+						 01px
+						 20px
+					;
+		padding		:
+						 10px
+						 25px
+					;
+	}
+	#content p		{
+	}
+	#content h3		{
+		font-size		:	1.6rem	;
+		border-style	:	solid		;
+		border-width	:
+						 00px
+						 00px
+						 00px
+						 05px
+					;
+		padding		:
+						 10px
+						 25px
+					;
+	}
+	#copyRight		{
+		text-align		:	center	;
+	}
+	
+	.left		{
+		text-align		:	left		;
+	}
+	.center		{
+		text-align		:	center	;
+	}
+	.right		{
+		text-align		:	right		;
+	}
+
